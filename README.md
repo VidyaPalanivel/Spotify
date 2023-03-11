@@ -1,8 +1,8 @@
 # Spotify
-A partially functional mock Spotify UI built with Css. 
+A partially functional mock Spotify UI built with HTML and CSS. 
 
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=whitee")](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg")](https://forthebadge.com)
 
 # Features
 - A partially functional Spotify

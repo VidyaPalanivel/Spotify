@@ -8,3 +8,8 @@ A partially functional mock Spotify UI built with HTML and CSS.
 - A partially functional Spotify
 - Hover to highlight the playlist.
 - Navigate between signup and login pages
+
+# Screenshots 
+![mainscreen]
+![signup]
+![login]

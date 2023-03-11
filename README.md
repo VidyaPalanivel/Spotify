@@ -10,6 +10,6 @@ A partially functional mock Spotify UI built with HTML and CSS.
 - Navigate between signup and login pages
 
 # Screenshots 
-![mainscreen]https://github.com/VidyaPalanivel/Spotify/blob/main/Spotify_Home.png
+![mainscreen](https://github.com/VidyaPalanivel/Spotify/blob/main/Spotify_Home.png)
 ![signup]
 ![login]

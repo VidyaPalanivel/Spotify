@@ -1,0 +1,128 @@
+body {
+  font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif), sans-serif;
+}
+
+.signup {
+  max-width: 430px;
+  margin: 0px auto;
+  padding-bottom: 130px;
+  display: block;
+  justify-content: center;
+}
+
+.title-content {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0px 10px 0px;
+  text-align: center;
+}
+
+.title-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signup-options {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: solid;
+  border-width: thin;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 300px;
+  will-change: transform, opacity;
+  z-index: 0;
+}
+
+.button-17:hover {
+  background: #F6F9FE;
+  transform: scale(1.1);
+}
+
+
+.button-17:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+.form-divider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 500px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.form-divider::before {
+  content: " ";
+  height: 0.1px;
+  width: 160px;
+  background: rgb(190, 189, 189);
+  display: block;
+  position: absolute;
+  top: 60%;
+  right: 30;
+
+}
+
+.form-divider::after {
+  content: " ";
+  height: 0.1px;
+  width: 160px;
+  background: rgb(190, 189, 189);
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 30;
+}
+
+.form {
+  font-size: 13px;
+
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.footer {
+  text-align: center;
+}

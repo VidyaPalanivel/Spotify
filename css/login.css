@@ -1,0 +1,133 @@
+body {
+    font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif), sans-serif;
+
+}
+.main {
+    max-width: 420px;
+    margin: 0px auto;
+    display: block;
+    justify-content: center;
+  }
+
+.logo img {
+    width: 130px;
+    height: 40px;
+    padding-top: 20px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.logo hr {
+    margin-top: 20px;
+    background-color: rgb(212, 208, 208);
+    display: flex;
+}
+
+.button-17 {
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: solid;
+    border-width: thin;
+    /* box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0; */
+    box-sizing: border-box;
+    color: #949697;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 450px;
+    will-change: transform, opacity;
+    z-index: 0;
+}
+
+.button-17:hover {
+    border: 1px solid black;
+}
+
+
+.button-17:focus {
+    outline: none;
+    border: 2px solid #4285f4;
+}
+
+.form {
+    font-size: 13px;
+
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+.line {
+    margin: 12px 0px 20px;
+    flex: 1 1 0%;
+    border-top: 1px solid rgb(217, 218, 220);
+}
+
+.form-divider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; 
+     max-width: 500px;
+     padding-top: 20px;
+     text-align: center;
+  }
+  
+  .form-divider::before {
+    content: " ";
+    height: 0.1px;
+    width: 180px;
+    background: rgb(190, 189, 189);
+    display: block;
+    position: absolute;
+    top: 70%;
+    right: 0;
+  
+  }
+  
+  .form-divider::after {
+    content: " ";
+    height: 0.1px;
+    width: 180px;
+    background: rgb(190, 189, 189);
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 0;
+  }
+  .form-footer {
+    display: flex;
+}
+.footer{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

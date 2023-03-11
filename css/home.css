@@ -1,0 +1,178 @@
+body {
+  background: #161616;
+  font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif), sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* The sidebar menu */
+.nav {
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 240px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: black;
+  /* Black */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.nav a {
+  padding: 11px 8px 8px 25px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #818181;
+  display: block;
+  font-weight: 700;
+}
+
+/* When you mouse over the navigation links, change their color */
+.nav a:hover {
+  color: #f1f1f1;
+}
+
+.horizontal-nav {
+  top: 0;
+  /* Stay at the top */
+  width: 100%;
+  /* Full-width */
+  height: 65;
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  background-color: #0c0b0b;
+  /* Dark-grey background */
+  overflow: hidden;
+
+}
+
+.horizontal-nav a {
+  float: right;
+  /* Float links side by side */
+  text-align: center;
+  /* Center-align text */
+  width: 8%;
+  /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 25px 0;
+  /* Some top and bottom padding */
+  color: #818182;
+  font-size: 14px;
+  /* Increased font size */
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.horizontal-nav a:hover {
+  color: #f1f1f1;
+}
+
+.content {
+  margin-left: 270px;
+  margin-top: 90px;
+
+}
+
+.content a {
+  padding-top: 0px;
+  padding-left: 920px;
+  font-size: 14px;
+  font-weight: 550;
+  text-decoration: none;
+  color: #818182;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+/* .hover :hover{
+    text-decoration: underline;
+  } */
+
+.front-image {
+  border-width: 15px 15px 105px 15px;
+  border-style: solid;
+  border-color: #0f0f0fab;
+  font-size: 13px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #818181;
+  width: 155px;
+  height: 155px;
+  font-weight: 520;
+
+}
+
+.front-image:hover {
+  transform: scale(1.1);
+}
+
+.complete-image {
+  display: flex;
+  column-gap: 25px;
+}
+
+#hover:hover {
+  text-decoration: underline;
+}
+
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  outline: #818181;
+  border-radius: 24px;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100px;
+  will-change: transform, opacity;
+  z-index: 0;
+}
+
+.button-17:hover {
+  background: #F6F9FE;
+  transform: scale(1.1);
+}
+
+.button-17:active {
+  outline: none;
+}
+
+.button-17:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
